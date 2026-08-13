@@ -22,13 +22,12 @@ export default function Services() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
 
-
-                    <div className="bg-white rounded-xl p-6 shadow-sm h-full">
-                        <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5">
+                    <div className="group relative overflow-hidden bg-white rounded-xl p-6 shadow-sm h-full flex flex-col items-center text-center border border-transparent cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-[#C9973E]/40 hover:shadow-xl hover:shadow-[#C9973E]/10">
+                        <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5 mx-auto transition-all duration-300 group-hover:bg-[#C9973E] group-hover:text-white group-hover:scale-110 group-hover:rotate-3">
                             <Music2 size={20} />
                         </div>
 
-                        <h3 className="font-serif text-lg text-[#1F1D1A] mb-2">
+                        <h3 className="font-serif text-lg text-[#1F1D1A] mb-2 transition-colors duration-300 group-hover:text-[#B08332]">
                             Mantenimiento y afinación
                         </h3>
 
@@ -36,15 +35,16 @@ export default function Services() {
                             Afinación, limpieza y mantenimiento para conservar el buen funcionamiento
                             y sonido de tu piano u órgano tubular.
                         </p>
+
+                        <div className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#C9973E] transition-all duration-300 group-hover:w-16 -translate-x-1/2" />
                     </div>
 
-
-                    <div className="bg-white rounded-xl p-6 shadow-sm h-full">
-                        <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5">
+                    <div className="group relative overflow-hidden bg-white rounded-xl p-6 shadow-sm h-full flex flex-col items-center text-center border border-transparent cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-[#C9973E]/40 hover:shadow-xl hover:shadow-[#C9973E]/10">
+                        <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5 mx-auto transition-all duration-300 group-hover:bg-[#C9973E] group-hover:text-white group-hover:scale-110 group-hover:rotate-3">
                             <Wrench size={20} />
                         </div>
 
-                        <h3 className="font-serif text-lg text-[#1F1D1A] mb-2">
+                        <h3 className="font-serif text-lg text-[#1F1D1A] mb-2 transition-colors duration-300 group-hover:text-[#B08332]">
                             Reparación general
                         </h3>
 
@@ -52,15 +52,16 @@ export default function Services() {
                             Diagnóstico y reparación de mecanismos, teclas, componentes,
                             estructura y demás elementos del instrumento.
                         </p>
+
+                        <div className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#C9973E] transition-all duration-300 group-hover:w-16 -translate-x-1/2" />
                     </div>
 
-
-                    <div className="bg-white rounded-xl p-6 shadow-sm h-full">
-                        <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5">
+                    <div className="group relative overflow-hidden bg-white rounded-xl p-6 shadow-sm h-full flex flex-col items-center text-center border border-transparent cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-[#C9973E]/40 hover:shadow-xl hover:shadow-[#C9973E]/10">
+                        <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5 mx-auto transition-all duration-300 group-hover:bg-[#C9973E] group-hover:text-white group-hover:scale-110 group-hover:rotate-3">
                             <Settings size={20} />
                         </div>
 
-                        <h3 className="font-serif text-lg text-[#1F1D1A] mb-2">
+                        <h3 className="font-serif text-lg text-[#1F1D1A] mb-2 transition-colors duration-300 group-hover:text-[#B08332]">
                             Reparación de órganos tubulares
                         </h3>
 
@@ -68,15 +69,16 @@ export default function Services() {
                             Mantenimiento, reparación y restauración de órganos tubulares,
                             cuidando cada uno de sus componentes.
                         </p>
+
+                        <div className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#C9973E] transition-all duration-300 group-hover:w-16 -translate-x-1/2" />
                     </div>
 
-
-                    <div className="bg-white rounded-xl p-6 shadow-sm h-full">
-                        <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5">
+                    <div className="group relative overflow-hidden bg-white rounded-xl p-6 shadow-sm h-full flex flex-col items-center text-center border border-transparent cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-[#C9973E]/40 hover:shadow-xl hover:shadow-[#C9973E]/10">
+                        <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5 mx-auto transition-all duration-300 group-hover:bg-[#C9973E] group-hover:text-white group-hover:scale-110 group-hover:rotate-3">
                             <Package size={20} />
                         </div>
 
-                        <h3 className="font-serif text-lg text-[#1F1D1A] mb-2">
+                        <h3 className="font-serif text-lg text-[#1F1D1A] mb-2 transition-colors duration-300 group-hover:text-[#B08332]">
                             Venta de refacciones
                         </h3>
 
@@ -84,15 +86,16 @@ export default function Services() {
                             Refacciones y componentes para pianos y órganos tubulares,
                             seleccionados para cada necesidad de reparación.
                         </p>
+
+                        <div className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#C9973E] transition-all duration-300 group-hover:w-16 -translate-x-1/2" />
                     </div>
 
-
-                    <div className="bg-white rounded-xl p-6 shadow-sm h-full">
-                        <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5">
+                    <div className="group relative overflow-hidden bg-white rounded-xl p-6 shadow-sm h-full flex flex-col items-center text-center border border-transparent cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-[#C9973E]/40 hover:shadow-xl hover:shadow-[#C9973E]/10">
+                        <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5 mx-auto transition-all duration-300 group-hover:bg-[#C9973E] group-hover:text-white group-hover:scale-110 group-hover:rotate-3">
                             <PenTool size={20} />
                         </div>
 
-                        <h3 className="font-serif text-lg text-[#1F1D1A] mb-2">
+                        <h3 className="font-serif text-lg text-[#1F1D1A] mb-2 transition-colors duration-300 group-hover:text-[#B08332]">
                             Fabricación a la medida
                         </h3>
 
@@ -100,6 +103,8 @@ export default function Services() {
                             Fabricación y adaptación de piezas y componentes especiales
                             para las necesidades de cada instrumento.
                         </p>
+
+                        <div className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#C9973E] transition-all duration-300 group-hover:w-16 -translate-x-1/2" />
                     </div>
 
                 </div>

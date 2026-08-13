@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import { Menu, X, MessageCircle } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
+import { FaWhatsapp } from 'react-icons/fa'
 
 export default function Navbar() {
     const [open, setOpen] = useState(false)
     const whatsappLink =
-        'https://wa.me/524491080748?text=Hola%2C%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20pianos%20y%20%C3%B3rganos'
+        'https://wa.me/524491080748?text=Hola%2C%20me%20gustar%C3%ADa%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20reparaci%C3%B3n%20y%20refacciones%20para%20pianos%20y%20%C3%B3rganos'
 
     useEffect(() => {
         document.body.style.overflow = open ? 'hidden' : ''
@@ -53,10 +54,9 @@ export default function Navbar() {
                         rel="noopener noreferrer"
                         className="hidden lg:inline-flex items-center gap-2 rounded-md bg-[#C9973E] px-5 py-2.5 text-sm font-semibold text-[#1C1A17] hover:bg-[#B9873A] transition-colors"
                     >
-                        <MessageCircle size={16} />
+                        <FaWhatsapp size={18} />
                         Escríbenos por WhatsApp
                     </a>
-
 
                     <button
                         onClick={() => setOpen(!open)}
@@ -67,7 +67,6 @@ export default function Navbar() {
                     </button>
                 </div>
             </div>
-
 
             <div
                 className={`lg:hidden fixed inset-0 z-40 bg-[#1F1D1A] transition-all duration-500 ease-out
@@ -86,8 +85,8 @@ export default function Navbar() {
                             {l.label}
                         </a>
                     ))}
-
                     <a
+
                         href={whatsappLink}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -96,7 +95,7 @@ export default function Navbar() {
                         className={`mt-4 inline-flex items-center gap-2 rounded-md bg-[#C9973E] px-6 py-3.5 text-sm font-semibold text-[#1C1A17] hover:bg-[#B9873A] transition-all duration-500 ease-out
               ${open ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'}`}
                     >
-                        <MessageCircle size={18} />
+                        <FaWhatsapp size={20} />
                         Escríbenos por WhatsApp
                     </a>
                 </nav>
