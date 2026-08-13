@@ -68,22 +68,22 @@ export default function Hero() {
                             <span className="h-px w-10 bg-[#C9973E]" />
 
                             <p className="text-xs font-semibold tracking-[0.25em] text-[#D9B66F] sm:text-sm">
-                                REPARACIÓN · MANTENIMIENTO · REFACCIONES
+                                REPARACIÓN · MANTENIMIENTO · VENTA DE REFACCIONES
                             </p>
                         </div>
 
                         <h1 className="mb-6 font-serif text-4xl leading-[1.05] text-white sm:text-5xl lg:text-7xl">
-                            Reparación de Pianos
+                            Reparación y Venta de Refacciones
                             <br />
                             <span className="text-[#D9B66F]">
-                                y Órganos Tubulares
+                                para Pianos y Órganos Tubulares
                             </span>
                         </h1>
 
                         <p className="mb-8 max-w-2xl text-base leading-relaxed text-white/80 sm:text-lg">
                             Brindamos reparación y mantenimiento especializado
-                            para pianos y órganos tubulares, junto con
-                            refacciones de calidad para conservar el
+                            para pianos y órganos tubulares, además de la
+                            venta de refacciones de calidad para conservar el
                             funcionamiento, sonido y vida útil de tu instrumento.
                         </p>
 
@@ -138,7 +138,7 @@ export default function Hero() {
                             03
                         </p>
                         <p className="text-xs font-medium text-white sm:text-sm">
-                            Refacciones
+                            Venta de Refacciones
                         </p>
                     </div>
                 </div>
