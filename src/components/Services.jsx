@@ -1,5 +1,5 @@
 import React from 'react'
-import { Wrench, Music2, Settings, Package, Truck } from 'lucide-react'
+import { Wrench, Music2, Settings, Package, Truck, Route } from 'lucide-react'
 
 export default function Services() {
     return (
@@ -46,7 +46,7 @@ export default function Services() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
 
                     <div className="group relative overflow-hidden bg-white rounded-xl p-6 shadow-sm h-full flex flex-col items-center text-center border border-transparent cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-[#C9973E]/40 hover:shadow-xl hover:shadow-[#C9973E]/10">
                         <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5 mx-auto transition-all duration-300 group-hover:bg-[#C9973E] group-hover:text-white group-hover:scale-110 group-hover:rotate-3">
@@ -116,7 +116,22 @@ export default function Services() {
                         <div className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#C9973E] transition-all duration-300 group-hover:w-16 -translate-x-1/2" />
                     </div>
 
+                    <div className="group relative overflow-hidden bg-white rounded-xl p-6 shadow-sm h-full flex flex-col items-center text-center border border-transparent cursor-pointer transition-all duration-300 hover:-translate-y-2 hover:border-[#C9973E]/40 hover:shadow-xl hover:shadow-[#C9973E]/10 sm:col-span-2 lg:col-span-1">
+                        <div className="w-10 h-10 rounded-lg bg-[#F4EEDF] flex items-center justify-center text-[#C9973E] mb-5 mx-auto transition-all duration-300 group-hover:bg-[#C9973E] group-hover:text-white group-hover:scale-110 group-hover:rotate-3">
+                            <Route size={20} />
+                        </div>
 
+                        <h3 className="font-serif text-lg text-[#1F1D1A] mb-2 transition-colors duration-300 group-hover:text-[#B08332]">
+                            Traslados
+                        </h3>
+
+                        <p className="text-sm text-[#6B675F] leading-relaxed">
+                            Transportamos tu piano u órgano tubular con el cuidado y la
+                            seguridad que necesita, dentro y fuera de la ciudad.
+                        </p>
+
+                        <div className="absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#C9973E] transition-all duration-300 group-hover:w-16 -translate-x-1/2" />
+                    </div>
 
                 </div>
             </div>

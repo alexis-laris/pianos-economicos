@@ -55,7 +55,7 @@ export default function Navbar() {
                         <span className="font-serif text-lg sm:text-xl text-[#201E1B] whitespace-nowrap">
                             Pianos &amp;{' '}
                             <span className="text-[#C9973E] italic">
-                                Órganos Tobulares
+                                Órganos Tubulares
                             </span>
                         </span>
                     </a>

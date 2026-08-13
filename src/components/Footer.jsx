@@ -91,7 +91,7 @@ export default function Footer() {
 
                 <div className="border-t border-white/10 mt-10 sm:mt-12 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
                     <p className="text-white/50 text-xs">
-                        © {new Date().getFullYear()} Pianos &amp; Órganos Tobulares. Todos los derechos reservados.
+                        © {new Date().getFullYear()} Pianos &amp; Órganos Tubulares. Todos los derechos reservados.
                     </p>
                     <p className="text-white/40 text-xs">
                         Hecho con dedicación en Aguascalientes, México.
