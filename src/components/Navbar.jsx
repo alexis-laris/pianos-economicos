@@ -28,8 +28,28 @@ export default function Navbar() {
                 <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 h-20 flex items-center justify-between">
 
                     <a href="#inicio" className="flex items-center gap-3 shrink-0">
-                        <span className="w-9 h-9 rounded-full bg-[#1C1A17] flex items-center justify-center text-[#C9973E] text-lg font-serif">
-                            ♫
+                        <span className="w-9 h-9 rounded-full bg-[#1C1A17] flex items-center justify-center shrink-0">
+                            <svg width="20" height="20" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 16 C14 13.8 15.8 12 18 12 L46 12 C48.2 12 50 13.8 50 16 L50 30 L14 30 Z" fill="#C9973E" />
+                                <path d="M14 24 L50 24" stroke="#1C1A17" strokeWidth="1.4" opacity="0.35" />
+                                <rect x="14" y="30" width="36" height="20" rx="2" fill="#FBF7EE" />
+                                <g stroke="#1C1A17" strokeWidth="1" opacity="0.55">
+                                    <line x1="19.14" y1="30" x2="19.14" y2="50" />
+                                    <line x1="24.29" y1="30" x2="24.29" y2="50" />
+                                    <line x1="29.43" y1="30" x2="29.43" y2="50" />
+                                    <line x1="34.57" y1="30" x2="34.57" y2="50" />
+                                    <line x1="39.71" y1="30" x2="39.71" y2="50" />
+                                    <line x1="44.86" y1="30" x2="44.86" y2="50" />
+                                </g>
+                                <g fill="#1C1A17">
+                                    <rect x="17.6" y="30" width="3.1" height="12" rx="0.6" />
+                                    <rect x="22.75" y="30" width="3.1" height="12" rx="0.6" />
+                                    <rect x="33.05" y="30" width="3.1" height="12" rx="0.6" />
+                                    <rect x="38.2" y="30" width="3.1" height="12" rx="0.6" />
+                                    <rect x="43.35" y="30" width="3.1" height="12" rx="0.6" />
+                                </g>
+                                <rect x="14" y="50" width="36" height="3.4" rx="1" fill="#C9973E" />
+                            </svg>
                         </span>
 
                         <span className="font-serif text-lg sm:text-xl text-[#201E1B] whitespace-nowrap">
@@ -52,7 +72,7 @@ export default function Navbar() {
                         href={whatsappLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="hidden lg:inline-flex items-center gap-2 rounded-md bg-[#C9973E] px-5 py-2.5 text-sm font-semibold text-[#1C1A17] hover:bg-[#B9873A] transition-colors"
+                        className="hidden lg:inline-flex items-center gap-2 rounded-md bg-[#C9973E] px-5 py-2.5 text-sm font-semibold text-white hover:bg-[#B9873A] transition-colors"
                     >
                         <FaWhatsapp size={18} />
                         Escríbenos por WhatsApp
@@ -86,7 +106,6 @@ export default function Navbar() {
                         </a>
                     ))}
                     <a
-
                         href={whatsappLink}
                         target="_blank"
                         rel="noopener noreferrer"

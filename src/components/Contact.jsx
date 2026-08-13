@@ -51,7 +51,7 @@ export default function Contact() {
                             href={whatsappLink}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="group/button inline-flex justify-center items-center gap-2 rounded-md bg-[#C9973E] text-[#1C1A17] px-6 py-3.5 text-sm font-semibold hover:bg-[#B9873A] transition-all duration-300 w-full sm:w-auto hover:scale-[1.03] hover:shadow-lg hover:shadow-[#C9973E]/20"
+                            className="group/button inline-flex justify-center items-center gap-2 rounded-md bg-[#C9973E] text-white px-6 py-3.5 text-sm font-semibold hover:bg-[#B9873A] transition-all duration-300 w-full sm:w-auto hover:scale-[1.03] hover:shadow-lg hover:shadow-[#C9973E]/20"
                         >
                             <FaWhatsapp
                                 size={20}
