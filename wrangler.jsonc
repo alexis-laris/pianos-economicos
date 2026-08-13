@@ -1,0 +1,7 @@
+{
+    "name": "pianos-economicos",
+    "compatibility_date": "2026-028-13",
+    "assets": {
+        "directory": "./dist"
+    }
+}
