@@ -1,5 +1,5 @@
 import React from 'react'
-import { Wrench, Music2, Settings, Package, PenTool } from 'lucide-react'
+import { Wrench, Music2, Settings, Package, Truck } from 'lucide-react'
 
 export default function Services() {
     return (
@@ -18,6 +18,32 @@ export default function Services() {
                     <p className="text-[#6B675F] text-base sm:text-lg mb-12">
                         Especialistas en pianos y órganos tubulares, desde su mantenimiento hasta su reparación.
                     </p>
+                </div>
+
+                <div className="mb-8 flex justify-center">
+                    <div className="relative overflow-hidden rounded-xl bg-[#1F1D1A] px-6 py-8 sm:px-10 sm:py-9 w-full max-w-3xl text-center">
+                        <div className="pointer-events-none absolute inset-0 bg-linear-to-br from-[#C9973E]/15 via-transparent to-transparent" />
+
+                        <div className="relative flex flex-col items-center">
+                            <div className="w-11 h-11 rounded-lg bg-[#C9973E]/15 flex items-center justify-center text-[#D9B66F] mb-4">
+                                <Truck size={22} />
+                            </div>
+
+                            <p className="text-[10px] sm:text-xs tracking-[0.25em] font-semibold text-[#D9B66F] mb-2">
+                                COBERTURA NACIONAL
+                            </p>
+
+                            <h3 className="font-serif text-2xl sm:text-3xl text-white mb-3">
+                                Servicio a Todo México
+                            </h3>
+
+                            <p className="text-sm sm:text-base text-white/75 max-w-xl leading-relaxed">
+                                Atendemos dentro y fuera de Aguascalientes: llevamos nuestro
+                                servicio de reparación, mantenimiento y refacciones a cualquier
+                                parte del país.
+                            </p>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
