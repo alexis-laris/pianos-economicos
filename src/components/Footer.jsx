@@ -37,7 +37,7 @@ export default function Footer() {
                             </span>
                             <span className="font-serif text-lg text-white whitespace-nowrap">
                                 Pianos &amp;{' '}
-                                <span className="text-[#C9973E] italic">Órganos Tobulares</span>
+                                <span className="text-[#C9973E] italic">Órganos Tubulares</span>
                             </span>
                         </a>
                         <p className="text-white/60 text-sm leading-relaxed max-w-xs">
