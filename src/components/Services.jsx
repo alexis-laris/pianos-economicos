@@ -126,7 +126,7 @@ export default function Services() {
                         </h3>
 
                         <p className="text-sm text-[#6B675F] leading-relaxed">
-                            Transportamos tu piano u órgano tubular con el cuidado y la
+                            Transportamos tu piano con el cuidado y la
                             seguridad que necesita, dentro y fuera de la ciudad.
                         </p>
 
