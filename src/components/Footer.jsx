@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaWhatsapp, FaFacebook, FaInstagram } from 'react-icons/fa'
+import { FaWhatsapp, FaInstagram } from 'react-icons/fa'
 
 export default function Footer() {
     const whatsappLink =
@@ -75,16 +75,6 @@ export default function Footer() {
                             Lunes a sábado, 9:00 a.m. – 7:00 p.m.
                         </p>
 
-                        <div className="flex items-center gap-3">
-                            <a
-                                href="https://www.facebook.com/profile.php?id=100063756810889"
-                                target="_blank"
-                                aria-label="Facebook"
-                                className="w-9 h-9 rounded-full border border-white/15 flex items-center justify-center text-white/70 hover:text-[#1C1A17] hover:bg-[#C9973E] hover:border-[#C9973E] transition-colors"
-                            >
-                                <FaFacebook size={16} />
-                            </a>
-                        </div>
                     </div>
 
                 </div>
